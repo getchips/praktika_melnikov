@@ -1,0 +1,534 @@
+@font-face {
+    font-family: 'GilroyR';
+    src: url('/fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GilroyB';
+    src: url('/fonts/Gilroy/Gilroy-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: normal;
+}
+
+
+
+
+
+
+.Header {
+    position: absolute;
+    width: 1200px;
+    height: 48px;
+    margin-left: 83px;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+}
+
+.logo_menu {
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 95%;
+    margin: 16px;
+}
+
+
+
+.start_desc {
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 212px;
+}
+
+.start_desc div h2 {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.start_desc div p {
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.start_desc button {
+    position: sticky;
+    width: 220px;
+    height: 56px;
+    top: 400px;
+    border-radius: 7px;
+    font-family: 'GilroyR';
+    background-color: #5A98D0;
+
+}
+
+.start_desc button:hover {
+    background-color: #1F3F68;
+    transition-duration: 0.2s;
+    color: #ffff;
+}
+
+
+.main_image {
+    position: absolute;
+    left: 655px;
+    top: 0px;
+}
+
+.grow {
+    position: absolute;
+    left: 213px;
+    top: 948px;
+}
+
+.grow h2 {
+    font-family: 'GilroyR';
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #316099;
+}
+
+
+.first_card {
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 560px;
+    top: 12px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.first_card div {
+    position: inherit;
+    left: 48px;
+    top: -12px;
+}
+
+.first_card h3 {
+    font-family: 'GilroyR';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.first_card p {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.first_card a {
+    bottom: 48px;
+    left: 48px;
+    font-family: 'GilroyR';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+
+.second_card {
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 80px;
+    top: 308px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.second_card div {
+    position: inherit;
+    left: 48px;
+    top: -12px;
+}
+
+.second_card h3 {
+    font-family: 'GilroyR';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.second_card p {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.second_card a {
+    bottom: 48px;
+    left: 48px;
+    font-family: 'GilroyR';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+
+.third_card {
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 560px;
+    top: 637px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.third_card div {
+    position: inherit;
+    left: 48px;
+    top: -12px;
+}
+
+.third_card h3 {
+    font-family: 'GilroyR';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.third_card p {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.third_card a {
+    bottom: 48px;
+    left: 48px;
+    font-family: 'GilroyR';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+
+.our {
+    position: absolute;
+    width: 940px;
+    height: 1118px;
+    top: 2302px;
+    left: 213px;
+}
+
+.our h3 {
+    position: absolute;
+    font-family: 'GilroyR';
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.our .our_desc {
+    width: 540px;
+    height: 80px;
+    line-height: 26px;
+    position: absolute;
+    left: 533px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.our .our_first_card {
+    width: 1005px;
+    height: 638px;
+    position: absolute;
+    top: 188px;
+}
+
+.our .our_first_card h4 {
+    position: absolute;
+    font-family: 'GilroyR';
+    top: 48px;
+    left: 576px;
+    letter-spacing: 0.05em;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.our .our_first_card p {
+    position: absolute;
+    top: 102px;
+    left: 700px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.our .our_second_card {
+    width: 422px;
+    height: 417px;
+    position: absolute;
+    top: 701px;
+}
+
+.our .our_second_card h4 {
+    position: absolute;
+    font-family: 'GilroyR';
+    top: 24px;
+    left: 32px;
+    letter-spacing: 0.05em;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.our .our_second_card p {
+    position: absolute;
+    top: 74px;
+    left: 32px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.our .our_third_card {
+    width: 422px;
+    height: 417px;
+    position: absolute;
+    top: 701px;
+    left: 518px;
+}
+
+.our .our_third_card h4 {
+    position: absolute;
+    font-family: 'GilroyR';
+    top: 24px;
+    left: 32px;
+    letter-spacing: 0.05em;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.our .our_third_card p {
+    position: absolute;
+    top: 74px;
+    left: 32px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.our img {
+    border-radius: 15px;
+}
+
+
+
+.Footer {
+    position: absolute;
+    width: 1366px;
+    height: 1549px;
+    top: 3612px;
+    background: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.Footer .footer_child {
+    position: absolute;
+    top: 680px;
+    width: 1270px;
+    height: 869px;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+}
+
+
+.Footer .footer_desc {
+    top: 96px;
+    left: 213px;
+    position: absolute;
+}
+
+.Footer .footer_desc h2 {
+    position: absolute;
+    font-family: 'GilroyR';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_desc p {
+    position: absolute;
+    width: 540px;
+    height: 80px;
+    left: 533px;
+    top: 96px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_desc .clients_logo {
+    position: absolute;
+    top: 299px;
+    left: 213px;
+    width: 940px;
+    height: 256px;
+}
+
+.cl1,
+.cl2,
+.cl3,
+.cl4 {
+    position: absolute;
+    font-family: 'GilroyR';
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    top: 41px;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+
+}
+
+.cl1 {
+    left: 46px;
+}
+
+.cl2 {
+    left: 281px;
+}
+
+.cl3 {
+    left: 516px;
+}
+
+.cl4 {
+    left: 751px;
+}
+
+.footer_child h2 {
+    position: absolute;
+    left: 213px;
+    top: 91px;
+    font-family: 'GilroyR';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_child p {
+    position: absolute;
+    width: 460px;
+    height: 80px;
+    top: 215px;
+    left: 213px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_child button {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 853px;
+    top: 165px;
+    background: #5A98D0;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+}
+
+
+.footer_menu_1 {
+    position: absolute;
+    left: 213px;
+    top: 487px;
+}
+
+.footer_menu_2 {
+    position: absolute;
+    left: 400px;
+    top: 382px;
+}
+
+
+
+.footer_menu_1 img {
+    left: 25px;
+    top: 12px;
+}
+
+.footer_menu_1 h2 {
+    position: absolute;
+    left: 27px;
+    top: 12px;
+    font-family: 'GilroyR';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.footer_menu_1 p {
+    position: absolute;
+    left: 56px;
+    top: 79px;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_menu_2 h2 {
+    position: absolute;
+    font-family: 'GilroyR';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.footer_menu_2 p {
+    position: absolute;
+    font-family: 'GilroyR';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
